@@ -7,3 +7,7 @@ export HADOOP_CONF_DIR="/home/username/links/hadoop/etc/hadoop"
 export YARN_CONF_DIR="/home/username/links/hadoop/etc/hadoop"
 
 export PATH=${PATH}:${JAVA_HOME}/bin:${HADOOP_HOME}/bin:${HADOOP_HOME}/sbin:${SPARK_HOME}/bin:${HIVE_HOME}/bin
+
+
+#Note:if path is corrupted
+#export PATH=/usr/bin:/bin
