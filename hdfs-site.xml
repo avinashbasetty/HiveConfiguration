@@ -14,3 +14,9 @@
 <name>dfs.permissions</name>
 <value>false</value>
 </property>
+<property>
+  <name>dfs.namenode.http-address</name>
+  <value>hive-spark:50070</value>
+  <final>true</final>
+</property>
+<configuration>
