@@ -15,10 +15,10 @@ Create new Password:
 Next step is to configure SSH to access through putty from your local machine. open the below file and make below changes
 vi /etc/ssh/sshd_config
 
-PermitRootLogin yes
-AuthorizedKeysFile      /root/.ssh/authorized_keys
-ChallengeResponseAuthentication yes
-PasswordAuthentication yes
+1. PermitRootLogin yes
+2. AuthorizedKeysFile      /root/.ssh/authorized_keys
+3. ChallengeResponseAuthentication yes
+4. PasswordAuthentication yes
 
 Save the file changes using **:wq!** command from your vi editor and restart the ssh 
 
