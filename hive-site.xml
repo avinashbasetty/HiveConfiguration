@@ -1,0 +1,32 @@
+<configuration>
+<property>
+<name>javax.jdo.option.ConnectionURL</name>
+<value>jdbc:mysql://localhost:3306/metastore?createDatabaseIfNotExist=true&amp;useSSL=false</value>
+<description>metadata is stored in a MySQL server</description>
+</property>
+<property>
+<name>javax.jdo.option.ConnectionDriverName</name>
+<value>com.mysql.jdbc.Driver</value>
+<description>MySQL JDBC driver class</description>
+</property>
+<property>
+<name>javax.jdo.option.ConnectionUserName</name>
+<value>root</value>
+<description>user name for connecting to mysql server</description>
+</property>
+<property>
+<name>javax.jdo.option.ConnectionPassword</name>
+<value>mysql</value>
+<description>password for connecting to mysql server</description>
+</property>
+<property>
+<name>hive.exec.local.scratchdir</name>
+<value>/tmp/hive</value>
+<description>Local scratch space for Hive jobs</description>
+</property>
+<property>
+<name>hive.downloaded.resources.dir</name>
+<value>/tmp/hive</value>
+<description>Temporary local directory for added resources in the remote file system.</description>
+</property>
+</configuration>
