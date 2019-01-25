@@ -1,11 +1,11 @@
 <property>
 <name>fs.default.name</name>
-<value>hdfs://localhost:8020</value>
+<value>hdfs://hive-spark:8020</value>
 <final>true</final>
 </property>
 <property>
 <name>hadoop.proxyuser.hadoop.hosts</name>
-<value>localhost</value>
+<value>hive-spark</value>
 </property>
 <property>
 <name>hadoop.proxyuser.hadoop.groups</name>
