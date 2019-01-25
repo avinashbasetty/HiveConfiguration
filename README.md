@@ -9,6 +9,7 @@ Once the instance is started, add sudo permissions to it and provide password. I
 
 1. sudo -i
 2. passwd
+
 Create new Password:
 
 Next step is to configure SSH to access through putty from your local machine. open the below file and make below changes
