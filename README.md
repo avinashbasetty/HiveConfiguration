@@ -7,8 +7,8 @@ Create a Google Cloud Instance with n1-standard-2 (2 vCPUs, 7.5 GB memory) confi
 
 Once the instance is started, add sudo permissions to it and provide password. It will ask to create new password.
 
-sudo -i
-passwd
+1.sudo -i
+2.passwd
 Create new Password:
 
 Next step is to configure SSH to access through putty from your local machine. open the below file and make below changes
