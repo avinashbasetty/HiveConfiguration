@@ -24,4 +24,7 @@ Save the file changes using **:wq!** command from your vi editor and restart the
 
 ssh service restart
 
-Now copy the External IP from your VM Instance page and try connecting using putty.
+Now copy the External IP from your VM Instance page and try connecting using putty. If you able to connect succesfully then you are good to go. If it is failed to connect, then check VPC Firewall rules and make sure to change default-allow-internal ip range to 0.0.0.0/0
+
+
+
