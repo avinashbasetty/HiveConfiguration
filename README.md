@@ -26,5 +26,15 @@ ssh service restart
 
 Now copy the External IP from your VM Instance page and try connecting using putty. If you able to connect succesfully then you are good to go. If it is failed to connect, then check VPC Firewall rules in cloud and make sure to change default-allow-internal ip range to **0.0.0.0/0**
 
+Add two folders under your directory **/home/yourusernamename** 
+1.  links
+2.  lib
+
+Now create a soft links for each application by using the below commands
+
+ln -s /usr/lib/jvm/java-8-oracle java8
+
+ls -n 
+
 
 
