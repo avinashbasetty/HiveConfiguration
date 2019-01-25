@@ -5,7 +5,7 @@ Create a Google Cloud Instance with n1-standard-2 (2 vCPUs, 7.5 GB memory) confi
 
 #### Setting Up SSH and root Configuration
 
-Once the instance is started, add sudo permissions to it and provide password. It will ask to create new password.
+Once the instance is started, add sudo permissions to it and provide password command. It will ask to create new password.
 
 1. sudo -i
 2. passwd
@@ -20,6 +20,8 @@ AuthorizedKeysFile      /root/.ssh/authorized_keys
 ChallengeResponseAuthentication yes
 PasswordAuthentication yes
 
-Save the file changes using **:wq!** command from your vi editor and restart the ssh using **ssh service restart** command
+Save the file changes using **:wq!** command from your vi editor and restart the ssh 
+
+ssh service restart
 
 Now copy the External IP from your VM Instance page and try connecting using putty.
