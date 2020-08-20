@@ -22,7 +22,7 @@ vi /etc/ssh/sshd_config
 
 Save the file changes using **:wq!** command from your vi editor and restart the ssh 
 
-ssh service restart
+service ssh restart
 
 Now copy the External IP from your VM Instance page and try connecting using putty. If you able to connect succesfully then you are good to go. If it is failed to connect, then check VPC Firewall rules in cloud and make sure to change default-allow-internal ip range to **0.0.0.0/0**
 
