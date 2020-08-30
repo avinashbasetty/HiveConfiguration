@@ -1,0 +1,16 @@
+ssh-keygen
+cat id_rsa.pub >> authorized_keys
+chmod 640 authorized_keys
+sudo service ssh restart
+chmod 600 ~/.ssh/id_rsa
+ssh localhost
+
+
+
+sudo apt-get install liblzo2-dev
+
+
+apt-get install libmysql-java
+
+$ rm /opt/shared/apache-hive-3.1.2-bin/lib/guava-19.0.jar
+$ cp /opt/shared/hadoop-3.2.1/share/hadoop/hdfs/lib/guava-27.0-jre.jar /opt/shared/apache-hive-3.1.2-bin/lib/
